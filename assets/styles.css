@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   /* background-color: grey; */
-  opacity: 5;
+  /* opacity: 5; */
   /* background-color: grey; */
 }
 label {
@@ -27,4 +27,7 @@ label {
   border-bottom: 1px solid dodgerblue;
   width: 80%;
   align-items: center;
+}
+input {
+  color: white;
 }
