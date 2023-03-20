@@ -7,14 +7,14 @@ h1 {
   font-size: 55px;
 }
 body {
-  background-image: url(/assets/GTH.jpg);
+  /* background-image: url(/assets/GTH.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   /* background-color: grey; */
   /* opacity: 5; */
-  /* background-color: grey; */
+  background-color: black;
 }
 label {
   color: white;
@@ -29,5 +29,5 @@ label {
   align-items: center;
 }
 input {
-  color: white;
+  color: rgb(34, 32, 32) !important;
 }
