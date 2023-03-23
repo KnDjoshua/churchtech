@@ -31,3 +31,119 @@ label {
 input {
   color: rgb(19, 19, 19) !important;
 }
+
+.btn:hover{
+  background-color: gold !important;
+  color: red !important;
+  width: 20% !important;
+  animation: 3s;
+}
+
+
+
+  <section>
+        <!-- form -->
+        <div class="container">
+          <center>
+          <form action="https://formsubmit.co/kndjoshua6@gmail.com" method="POST" >
+            <div class="form-group">
+              <!-- <label for="exampleInputEmail1">Full Name</label> -->
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Full Name"
+                name="FULL NAME"
+              required/>
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <br />
+            <div class="form-group">
+              <!-- <label for="exampleInputEmail1">Phone Number</label> -->
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Phone Number"
+                name="PHONE NUMBER" required/>
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <br />
+            <div class="form-group">
+              <!-- <label for="exampleInputEmail1">Email address</label> -->
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Email"
+                name="EMAIL ADDRESS"
+              required/>
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <br />
+            <div class="form-group">
+              <!-- <label for="exampleInputEmail1">Email address</label> -->
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Residential Address"
+                name="RESIDENTIAL ADDRESS"
+              required/>
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <br />
+            <div class="form-group">
+              <!-- <label for="exampleInputEmail1">Email address</label> -->
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Cell Number"
+                name="CELL NUMBER"
+              required/>
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <br />
+            <div class="form-group">
+              <!-- <label for="exampleInputEmail1">Email address</label> -->
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Cell Leaders Name"
+                name="CELL LEADERS NAME"
+              required/>
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <br />
+            <div class="form-group">
+              <!-- <label for="exampleInputEmail1">Email address</label> -->
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Cell Leader's Phone Number"
+                name="CELL LEADER'S NUMBER"
+              required/>
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <br>
+            <textarea placeholder="What Do You Do? [Place Of Work]" class="form-control" name="WHAT THEY DO" id="" cols="30" rows="3"></textarea>
+            <br />
+            <input type="checkbox"><span style="color:white;" > Note that you should provide WhatsApp Contacts</span>
+            <br />
+            <br />
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <input type="hidden" name="_next" value="https://kndjoshua.github.io/KnD/">
+          </form>
+        </div>
+        </center>
+      </section>
